@@ -1,4 +1,5 @@
 export default {
+    base: '/docs/.vitepress/dist/',
     title: 'notebook',
     themeConfig: {
         siteTitle: "m1ng's notebook",
