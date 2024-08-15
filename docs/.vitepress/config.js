@@ -1,6 +1,7 @@
 export default {
     title: 'notebook',
-    base: '/docs/',
+    base: '.',
+    dest: './dist',
     themeConfig: {
         siteTitle: "m1ng's notebook",
         description: '电子手册',
