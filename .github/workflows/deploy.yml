@@ -39,6 +39,9 @@ jobs:
           node-version: 20
           cache: 'pnpm' # 或 pnpm / yarn
 
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Setup pnpm
         run: corepack enable
 
