@@ -1,5 +1,5 @@
 export default {
-    base: '.',
+    base: '/dist',
     title: 'notebook',
     themeConfig: {
         siteTitle: "m1ng's notebook",
