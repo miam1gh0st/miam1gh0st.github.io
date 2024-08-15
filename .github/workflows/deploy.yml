@@ -16,13 +16,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - run: npm i pnpm -g
+      - run: pnpm install --frozen-lockfile
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm i pnpm -g
-      - run: pnpm install --frozen-lockfile
-
+      
       - name: Build
         run: pnpm docs:build
 
