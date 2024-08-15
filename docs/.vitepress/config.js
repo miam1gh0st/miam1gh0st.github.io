@@ -1,5 +1,5 @@
 export default {
-    base: '/dist',
+    base: '/miam1gh0st.github.io/',
     title: 'notebook',
     themeConfig: {
         siteTitle: "m1ng's notebook",
