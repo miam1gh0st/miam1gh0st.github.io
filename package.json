@@ -8,7 +8,6 @@
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
     "docs:preview": "vitepress preview docs --port 8080",
-    "docs:deploy": "sh ./deploy.sh"
   },
   "keywords": [],
   "author": "",
